@@ -13,8 +13,8 @@
   "license": "MIT",
   "author": "Thomas Leon Highbaugh <thighbaugh@zoho.com>",
   "scripts": {
-    "serve": "concurrently \"postcss ./tailwind.css -o docs/build.css --watch\"  \"live-server ./docs \"",
-    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./docs/build.css"
+    "serve": "concurrently \"postcss ./tailwind.css -o public/build.css --watch\"  \"live-server ./public \"",
+    "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./public/build.css"
   },
   "dependencies": {
     "@fullhuman/postcss-purgecss": "^5.0.0",
