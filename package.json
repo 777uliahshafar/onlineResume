@@ -14,6 +14,7 @@
   "author": "Thomas Leon Highbaugh <thighbaugh@zoho.com>",
   "scripts": {
     "serve": "concurrently \"postcss ./tailwind.css -o public/build.css --watch\"  \"live-server ./public \"",
+    "serve:docs": "live-server ./docs",
     "build": "cross-env NODE_ENV=build postcss ./tailwind.css -o ./public/build.css"
   },
   "dependencies": {
